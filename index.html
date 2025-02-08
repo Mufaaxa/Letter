@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat untuk Melia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Surat untuk Melia</h2>
+        <div id="language-selection">
+            <p>Pilih bahasa | Choose language:</p>
+            <button class="lang-btn" onclick="startLetter('id')">Bahasa Indonesia</button>
+            <button class="lang-btn" onclick="startLetter('en')">English</button>
+        </div>
+        <p class="message" id="message"></p>
+        <button class="btn" id="nextBtn" onclick="nextMessage()">Lanjut</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

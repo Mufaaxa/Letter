@@ -1,0 +1,61 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f9f5f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff7e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4a373;
+    position: relative;
+}
+
+.container::before {
+    content: '\2709';
+    font-size: 50px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #d4a373;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    min-height: 80px;
+    color: #5a3e2b;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d4a373;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn:hover {
+    background-color: #b07a50;
+}
+
+.lang-btn {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background: #ffddb3;
+    color: #5a3e2b;
+    border-radius: 5px;
+}
